@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <nav>
+        <a href="hack.html">Home</a>
+        <a href="design.html">About</a>
+        <a href="">Portfolio</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+
+<meta name="viewport" content="width-device-width, initial-scale=1.0">
+<title>Contact Form To Email Using Javascript</title>
+<link rel="stylesheet" href="stylez.css">
+</head>
+<body>
+    <div class="gradient">
+<div class="container">
+<form>
+<h3>GET IN TOUCH</h3>
+<input type="text" id="name" placeholder="Fashion designers" required>
+<input type="email" id="email" placeholder="sysb8932@gmail.com" required>
+<input type="text" id="phone" placeholder="+91 8976537289" required>
+<textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+<button type="submit">Send</button>
+</div>
+</form>
+</div>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+function sendEmail(){
+Email.send(){
+Host : "smtp.gmail.com",
+Username: "avinash6252@gmail.com",
+Password : "password"
+To : "avinashkrdm@gmail.com",
+From : document.getElementById("email").value,
+Subject : "New Contact Form Enquiry",
+Body : "And this is the body"
+}).then(
+message => alert(message)
+);
+}
+</script>
+ </body>
+ </html>

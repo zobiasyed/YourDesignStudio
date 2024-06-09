@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-style: italic;
+}
+
+header {
+    
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+header nav a{
+    color: #fff;
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#3d-viewer {
+    width: 800px;
+    height: 600px;
+    border: 1px solid #ccc;
+    
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.image {
+    width: 350px;
+    height: 400px;
+    margin-top: 50px;
+    overflow: hidden;
+    position: relative;
+}
+.item{
+    width: 1450px;
+    height: 1500px;
+   }
+   .background-image{
+    width: 550px;
+   height: 400px;
+    margin: 0;
+    padding: 0;
+    background-image: url('path/to/your/background-image.jpg');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    font-family: Arial, sans-serif;
+    color: #333; /* Text color */
+}
+
+.content {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for content */
+    border-radius: 10px; /* Rounded corners for content */
+}
+
+.background-image p{
+
+    font-size:xx-large;
+    font-style: italic;
+   
+}
+.container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.container img {
+    width: 50px; /* Set width of images */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add space between images */
+}
+
+.container p {
+    margin-left: 20px; /* Add space between images and text */
+}
+
